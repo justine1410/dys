@@ -1,0 +1,38 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles du conteneur */
+  .container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  /* Styles du texte karaoké */
+  .texteHistoire {
+    font-size: 24px;
+    font-weight: bold;
+    width: 80%;
+  }
+  
+  /* Styles de chaque mot */
+  .texteHistoire .mot {
+    display: inline-block;
+    transition: color 0.5s ease; /* Transition de couleur pour l'effet karaoké */
+  }
+  
+  /* Lorsque le mot est en évidence */
+  .texteHistoire .mot.en-vedette {
+    opacity: 0;
+  }
+
+  /*lettre muette*/
+  .texteHistoire .muet{
+    color: olivedrab;
+  }
+    
+  
