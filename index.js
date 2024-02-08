@@ -1,5 +1,5 @@
                                                 /*******les histoires******************/
-
+console.log('coucou');
 // Importez les histoires depuis le fichier histoires.js
 import histoires from './histoires.js';
 
@@ -68,8 +68,6 @@ button.addEventListener('click',()=>{
 
     mettreEnVedette()
 })
-// // Appeler la fonction pour mettre en évidence les mots progressivement
-// mettreEnVedette();
 
 // Fonction pour réinitialiser le texte après la fin de l'animation karaoké
 function reinitialiserTexte() {
