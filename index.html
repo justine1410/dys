@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -15,16 +19,29 @@
                 <select name="selectHistoire" id="selectHistoire">
                     <option value="1">L'histoire de Petit Rex</option>
                     <option value="2">Bulbao, petit monstre vert</option>
+                    <option value="3">Test</option>
                 </select>
-        
+
+                <label for="selectTypo">Choississez votre typographie :</label>
+                <select name="selectTypo" id="selectTypo">
+                    <option value="Arial">Arial</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="Courier">Courier</option>
+                    <option value="Verdana">Verdana</option>
+
+                </select>
     
             </div>
+            <textarea id="inputText" placeholder="Ou écrivez votre propre texte ici...."></textarea>       
+
             <button class="go">Débuter l'histoire</button>
         </div>
     
     
         <div class="container">
-           <!-- HTML -->
+
+            
+            <!-- HTML -->
             <div class="texteHistoire">
                
             </div>
@@ -36,5 +53,6 @@
 
 
 <script type="module" src="./index.js"></script>
+
 </body>
 </html>
